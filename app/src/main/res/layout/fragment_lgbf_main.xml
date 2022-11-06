@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_time"
+        android:focusable="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/tv_rizhu_shizhu"
+        android:focusable="true"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/tv_bagua"
+        android:focusable="true"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rizhu_shizhu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/tv_xuewei"
+        android:focusable="true"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bagua"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/tv_location"
+        android:focusable="true"
+        app:layout_constraintTop_toBottomOf="@id/tv_xuewei"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/tv_effect"
+        android:focusable="true"
+        android:minHeight="80dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toBottomOf="@+id/tv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_clinical"
+        android:focusable="true"
+        android:minHeight="80dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toBottomOf="@+id/tv_effect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

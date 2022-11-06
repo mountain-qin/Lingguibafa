@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectTimeActivity">
+
+        <TextView
+            style="@style/SelectTimeView"
+            android:text="@string/please_select_year" />
+
+        <Spinner
+            android:id="@+id/spinner_year"
+            style="@style/SelectTimeView" />
+
+        <TextView
+            style="@style/SelectTimeView"
+            android:text="@string/please_select_month" />
+
+        <Spinner
+            android:id="@+id/spinner_month"
+            style="@style/SelectTimeView" />
+
+        <TextView
+            style="@style/SelectTimeView"
+            android:text="@string/please_select_day" />
+
+        <Spinner
+            android:id="@+id/spinner_day"
+            style="@style/SelectTimeView" />
+
+        <TextView
+            style="@style/SelectTimeView"
+            android:text="@string/please_select_hour" />
+
+        <Spinner
+            android:id="@+id/spinner_hour"
+            style="@style/SelectTimeView" />
+
+        <TextView
+            style="@style/SelectTimeView"
+            android:text="@string/please_select_minute" />
+
+        <Spinner
+            android:id="@+id/spinner_minute"
+            style="@style/SelectTimeView" />
+
+        <LinearLayout style="@style/SelectTimeView">
+
+            <Button
+                android:id="@+id/bt_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/bt_ok"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/ok" />
+        </LinearLayout>
+    </LinearLayout>

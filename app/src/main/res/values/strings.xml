@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">Lingguibafa</string>
+    <string name="app_name">拜玛灵龟八法</string>
+    <string name="refresh">刷新</string>
+    <string name="refresh_completed">刷新完成!</string>
+    <string name="please_select_year">请选择年</string>
+    <string name="please_select_month">请选择月</string>
+    <string name="please_select_day">请选择日</string>
+    <string name="please_select_hour">请选择小时</string>
+    <string name="please_select_minute">请选择分钟</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="disclaimers">免责声明</string>
+    <string name="version">版本</string>
+    <string name="disclaimers_content">本软件相关内容来源于网络，仅供参考。
+        因使用本软件产生的问题与作者无关。</string>
+    <string name="please_select_rizhu">请选择日柱</string>
+    <string name="please_select_shizhu">请选择时柱</string>
+    <string name="unknow_time">*年*月*日*时*分</string>
+    <string name="help">帮助</string>
 </resources>
